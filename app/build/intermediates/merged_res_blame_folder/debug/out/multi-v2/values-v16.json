@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kasun\\StudioProjects\\SimpleExpenseManager_Dilusha\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\kasun\\StudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kasun\\.gradle\\caches\\transforms-2\\files-2.1\\45642fd0a6138345441bf0a6b6a7b84e\\support-compat-26.1.0\\res\\values-v16\\values-v16.xml",

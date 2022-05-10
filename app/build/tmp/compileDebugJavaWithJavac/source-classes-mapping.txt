@@ -33,10 +33,10 @@ lk/ac/mrt/cse/dbs/simpleexpensemanager/data/AccountDAO.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.data.AccountDAO
 lk/ac/mrt/cse/dbs/simpleexpensemanager/control/exception/ExpenseManagerException.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.control.exception.ExpenseManagerException
-lk/ac/mrt/cse/dbs/simpleexpensemanager/config/DBHelper.java
- lk.ac.mrt.cse.dbs.simpleexpensemanager.config.DBHelper
 lk/ac/mrt/cse/dbs/simpleexpensemanager/data/impl/InMemoryTransactionDAO.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.InMemoryTransactionDAO
+lk/ac/mrt/cse/dbs/simpleexpensemanager/DBEditor.java
+ lk.ac.mrt.cse.dbs.simpleexpensemanager.DBEditor
 lk/ac/mrt/cse/dbs/simpleexpensemanager/data/model/Transaction.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction
 lk/ac/mrt/cse/dbs/simpleexpensemanager/control/InMemoryDemoExpenseManager.java
