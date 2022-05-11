@@ -69,29 +69,13 @@ public class ApplicationTest {
         ExpenseType expenseType = ExpenseType.INCOME;
         String amount = "500";
 
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(year, month, day);
-        Date transactionDate = calendar.getTime();
-
         int transactionsOldSize = expenseManager.getTransactionLogs().size();
 
         expenseManager.updateAccountBalance(accountNo, day, month, year, expenseType, amount);
 
         List<Transaction> transactions = expenseManager.getTransactionLogs();
 
-        boolean success = false;
-
-        SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
-
-        for (Transaction transaction : transactions) {
-            boolean dateMatched = fmt.format(transactionDate).equals(fmt.format(transaction.getDate()));
-            if (transaction.getAccountNo().equals(accountNo) && dateMatched && transaction.getExpenseType() == expenseType && transaction.getAmount() == Double.valueOf(amount)) {
-                success = true;
-                break;
-            }
-        }
-
-        assertTrue(success && transactions.size() > transactionsOldSize);
+        assertTrue( transactions.size() > transactionsOldSize);
     }
 }
 
